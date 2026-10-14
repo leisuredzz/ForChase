@@ -1,0 +1,13 @@
+{
+  // 指定本项目使用的 Python 解释器（uv 创建在项目根目录下的 .venv）
+  // ${workspaceFolder} 会自动替换成项目根目录，换电脑/换路径都不用改
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+
+  // 让代码补全和静态分析能认识 src 下的模块
+  "python.analysis.extraPaths": [
+    "./src"
+  ],
+  "python.autoComplete.extraPaths": [
+    "./src"
+  ]
+}

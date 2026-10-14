@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v6/echarts.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v6/maps/china.js"></script>
+
+    
+</head>
+<body >
+    <div id="8e9eeeb701724f1a92b98bf7724d01f8" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_8e9eeeb701724f1a92b98bf7724d01f8 = echarts.init(
+            document.getElementById('8e9eeeb701724f1a92b98bf7724d01f8'), 'white', {renderer: 'canvas', locale: 'ZH'});
+        var option_8e9eeeb701724f1a92b98bf7724d01f8 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "series": [
+        {
+            "type": "map",
+            "name": "\u793a\u4f8b\u6570\u636e",
+            "label": {
+                "show": true,
+                "margin": 8,
+                "richInheritPlainLabel": true,
+                "valueAnimation": false
+            },
+            "map": "china",
+            "data": [
+                {
+                    "name": "\u5317\u4eac",
+                    "value": 99
+                },
+                {
+                    "name": "\u4e0a\u6d77",
+                    "value": 199
+                },
+                {
+                    "name": "\u6e56\u5357",
+                    "value": 299
+                },
+                {
+                    "name": "\u5e7f\u4e1c",
+                    "value": 499
+                },
+                {
+                    "name": "\u53f0\u6e7e",
+                    "value": 399
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
+            "zlevel": 0,
+            "z": 2,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": true,
+            "preserveAspect": false,
+            "clip": false,
+            "emphasis": {}
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u793a\u4f8b\u6570\u636e"
+            ],
+            "selected": {}
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "displayTransition": true,
+        "textStyle": {
+            "fontSize": 14,
+            "richInheritPlainLabel": true
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    }
+};
+        chart_8e9eeeb701724f1a92b98bf7724d01f8.setOption(option_8e9eeeb701724f1a92b98bf7724d01f8);
+    </script>
+</body>
+</html>

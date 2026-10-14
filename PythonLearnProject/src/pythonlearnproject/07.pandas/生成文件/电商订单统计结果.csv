@@ -1,0 +1,8 @@
+﻿user_name,city,order_id,order_time,product_name,category,quantity,price,total_amount,user_order_merge,detail_product_merge
+孙七,杭州,无订单,无订单,无匹配商品,无匹配商品,0.0,0.0,0.0,left_only,left_only
+张三,北京,2001.0,2023-01-15 00:00:00,无线鼠标,外设,2.0,199.0,398.0,both,both
+张三,北京,2001.0,2023-01-15 00:00:00,机械键盘,外设,1.0,299.0,299.0,both,both
+李四,上海,2003.0,2023-02-14 00:00:00,无线鼠标,外设,1.0,199.0,199.0,both,both
+李四,上海,2003.0,2023-02-14 00:00:00,显示器,办公,2.0,399.0,798.0,both,both
+王五,广州,2004.0,2023-03-01 00:00:00,机械键盘,外设,5.0,299.0,1495.0,both,both
+赵六,深圳,无订单,无订单,无匹配商品,无匹配商品,0.0,0.0,0.0,left_only,left_only
